@@ -8,7 +8,7 @@ export default function FlashLogo() {
     
     return (
         <>
-        <Link  href="/about">
+        <Link  href="/">
             <Image className={styles.flashImage} src={FlashIcon} alt="flash-logo" width={40} height={40} />
         </Link>
         </>
